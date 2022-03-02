@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gene Analyzer</title>
+    <link rel="stylesheet" href="./../CSSFiles/addGeneInfoStyle.css">
+</head>
+<body>
+    <form id="geneFileUpload">
+        <div class='formitems'>
+            <label for="geneName">Gene Name:</label>
+            <input type="text" name="genename" id="geneName" required>
+        </div>
+        <div class='formitems'>
+            <label for="geneSeqFile">Enter the file with Gene Sequence: </label>
+        <input type="file" name="genesequence" id="geneSeqFile" accept="text" required>
+        </div>
+        <div class='formitems'>
+            <button type="submit">Submit</button>
+            <button id="goBackToHomePage">Back</button>
+        </div>
+        
+    </form>
+</body>
+</html>

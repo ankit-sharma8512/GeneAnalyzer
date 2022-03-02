@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./../Fonts/Roboto-Regular.ttf");
+}
+body{
+    background-color: #F0E9D2;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25vh;
+}
+
+h4{
+    font-family: Roboto;
+    font-size: 40px;
+    margin: 10px 5px;
+}
+a{
+    color: white;
+    font-family: Roboto;
+    border-radius: 10px;
+    text-decoration: none;
+    margin: 10px auto;
+    padding :10px 50px;
+    background-color:  #678983;
+    display: block;
+}
+a:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+    cursor: pointer;
+}
+button{
+    margin:5px;
+    padding:10px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #678983;
+}
+
+button:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+    cursor: pointer;
+}

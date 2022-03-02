@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./../Fonts/Roboto-Regular.ttf");
+}
+body{
+    background-color: #F0E9D2;
+}
+
+#geneSearch{
+    margin: 10px 10px;
+    
+}
+#geneSearch label {
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#geneSearch input{
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 2px;
+    font-family: Roboto;
+}
+
+.geneSearchResult{
+    display: inline;
+    margin:10px 5px;
+    padding:10px;
+    background-color: #678983;
+    color: white;
+    border-radius: 5px;
+}
+.geneSearchResult:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+   cursor: pointer;
+}
+
+button{
+    margin:5px 1px;
+    padding:10px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #678983;
+}
+
+button:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+    cursor: pointer;
+}
+
+h4{
+    margin:15px;
+    color: #181D31;
+    font-family: Roboto;
+}

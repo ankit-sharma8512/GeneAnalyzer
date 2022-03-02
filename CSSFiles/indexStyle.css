@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./../Fonts/Roboto-Regular.ttf");
+}
+body{
+    background-color: #F0E9D2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+#mainHeading{
+    display: inline;
+    color: #181D31;
+    margin: 20px 5px;
+    font-size: 60px;
+}
+
+.homebuttons{
+    margin:5px 5px;
+    padding:20px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #678983;
+}
+
+.homebuttons:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+    cursor: pointer;
+}

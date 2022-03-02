@@ -1,0 +1,16 @@
+{
+  "name": "geneanalyzer",
+  "version": "1.0.0",
+  "description": "A Gene Analyzer",
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "keywords": [],
+  "author": "Ankit Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.3.1",
+    "mongodb": "^4.2.1"
+  }
+}

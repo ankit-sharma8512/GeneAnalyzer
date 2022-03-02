@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Roboto;
+    src: url("./../Fonts/Roboto-Regular.ttf");
+}
+body{
+    background-color: #F0E9D2;
+}
+
+#geneFileUpload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.formitems{
+    margin:20px auto;
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#geneFileUpload label {
+    display: block;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+#geneFileUpload input{
+    padding: 5px;
+    border:1px solid black;
+    border-radius: 2px;
+    font-family: Roboto;
+}
+button{
+    margin:5px;
+    padding:10px;
+    border: 0px;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    color: white;
+    background-color: #678983;
+}
+
+button:hover{
+    color:#E6DDC4;
+    text-decoration: underline;
+    background-color: #181D31;
+    cursor: pointer;
+}
